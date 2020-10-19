@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "mobile": {
+      "tags": []
+    },
+    "mobile-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mobile"]
+    }
+  }
 }
